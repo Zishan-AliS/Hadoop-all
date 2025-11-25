@@ -10,5 +10,5 @@ for line in sys.stdin:
     else:
         odd += int(value)
 
-print("even:", even)
-print("odd:", odd)
+print(f"even\t{even}")
+print(f"odd\t{odd}")
